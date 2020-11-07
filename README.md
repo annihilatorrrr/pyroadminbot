@@ -1,3 +1,6 @@
+
+[Credits](https://github.com/pyroadminbot/pyroadminbot#credits-and-thanks-to) 
+
 # Bot 🔥🤖
 
 A Telegram Bot ~~[still WIP, not stable]~~ based on [Pyrogram](https://github.com/pyrogram/pyrogram)
