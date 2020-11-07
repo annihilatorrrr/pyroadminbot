@@ -59,5 +59,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 * [Colin Shark](https://github.com/ColinTheShark) for his [PyroBot](https://git.colinshark.de/PyroBot/PyroBot)
 * [SpEcHiDe](https://github.com/SpEcHiDe) for the majority of the code based on [pyrogrambot](https://github.com/SpEcHiDe/PyroGramBot)
 * [Skuzzy xD](https://github.com/SkuzzyxD) for the speedtest plugin from [telepyrobot](https://github.com/SkuzzyxD/TelePyroBot)
-* [Amano Team](https://github.com/AmanoTeam) for the translate plugin from [EduuRobot](https://github.com/AmanoTeam/EduuRobot)
+* [pokurt](https://github.com/pokurt) for the translate plugin from [Butler-Plus-Bot](https://github.com/pokurt/Butler-Plus-Bot)
 * [![CopyLeft](https://telegra.ph/file/b514ed14d994557a724cb.jpg)](https://telegra.ph/file/fab1017e21c42a5c1e613.mp4 "CopyLeft Credit Video")
