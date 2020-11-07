@@ -7,7 +7,6 @@ from pyrogram.types import Message
 
 @Client.on_message(filters.regex(r'^s/(.+)?/(.+)?(/.+)?') & filters.reply)
 async def sed(c: Client, m: Message):
-    _ = GetLang(m).strs
     exp = regex.split(r'(?<![^\\]\\)/', m.text)
     pattern = exp[1]
     replace_with = exp[2].replace(r'\/', '/')
