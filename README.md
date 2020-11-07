@@ -9,6 +9,16 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ## installing
 
+#### the normal way 👍👍👍
+ 
+ git clone https://github.com/pyroadminbot/pyroadminbot.git
+ cd pyroadminbot
+ rename sample_config.py to config.py
+ and edit config.py
+ bash startbot
+ or python3 -m pyrobot
+
+
 #### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
