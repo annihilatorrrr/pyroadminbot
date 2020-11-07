@@ -12,7 +12,7 @@ from pyrobot.helper_functions.cust_p_filters import f_onw_fliter
 ALIVE = "i am alive..."
 HELP = "CAADAgAD6AkAAowucAABsFGHedLEzeUWBA"
 REPO = ("User / Bot is available on GitHub:\n"
-        "https://github.com/SpEcHiDe/PyroGramBot")
+        "https://github.com/pyroadminbot/pyroadminbot \n based on  https://github.com/SpEcHiDe/PyroGramBot , https://github.com/SkuzzyxD/TelePyroBot , https://github.com/pokurt/Butler-Plus-Bot")
 # -- Constants End -- #
 
 
