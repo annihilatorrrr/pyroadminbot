@@ -58,3 +58,15 @@ async def purge(client, message):
     )
     await asyncio.sleep(5)
     await status_message.delete()
+
+    
+    
+    @Client.on_message(
+    filters.command("del", COMMAND_HAND_LER) &
+    admin_fliter
+)
+async def delmsg(client, message):
+     if message.reply_to_message:
+         await message.reply_to_message.delete()
+         await message.delete()
+
