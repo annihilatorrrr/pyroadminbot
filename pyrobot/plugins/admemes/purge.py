@@ -9,7 +9,9 @@ from pyrobot import (
 )
 from pyrobot.helper_functions.admin_check import admin_check
 from pyrobot.helper_functions.cust_p_filters import f_onw_fliter
-
+from pyrobot.helper_functions.cust_p_filters import (
+    admin_fliter
+)
 
 @Client.on_message(
     filters.command("purge", COMMAND_HAND_LER) &
