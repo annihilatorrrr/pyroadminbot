@@ -39,4 +39,6 @@ async def translate(_client, message):
             await message.reply_text("Error: `{}`".format(str(err)))
             return
 
-    await message.reply_text(f"**Translated from** `{detectlang.lang}` **to** `{target}`:\n```{tekstr.text}```")
+    await message.reply_text(f"**Translated from** `{detectlang.lang}` **to** `{target}`:\n```{tekstr.text}```",
+            parse_mode="markdown",
+)
