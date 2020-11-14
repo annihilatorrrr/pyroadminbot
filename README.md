@@ -13,6 +13,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
  
 * git clone https://github.com/pyroadminbot/pyroadminbot.git
 * cd pyroadminbot
+* pip3 install -U -r requirements.txt
 * rename sample_config.py to config.py
 * and edit config.py
 * bash startbot
