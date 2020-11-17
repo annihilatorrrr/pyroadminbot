@@ -63,12 +63,4 @@ async def purge(client, message):
 
     
     
-    @Client.on_message(
-    filters.command("del", COMMAND_HAND_LER) &
-    admin_fliter
-)
-async def delmsg(client, message):
-     if message.reply_to_message:
-         await message.reply_to_message.delete()
-         await message.delete()
-
+    
