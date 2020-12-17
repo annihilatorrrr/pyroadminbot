@@ -1,5 +1,4 @@
 from gpytranslate import Translator
-from pyrogram import filters
 from pyrobot import COMMAND_HAND_LER
 from pyrogram import Client, filters
 from pyrobot.gpytrhelper.gpytranslatehelper import edrep
