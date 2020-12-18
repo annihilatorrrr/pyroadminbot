@@ -13,9 +13,20 @@ from pyrobot.helper_functions.cust_p_filters import (
 async def pin(client, message):
     await client.pin_chat_message(
     message.chat.id,
-    message.reply_to_message.message_id
+    message.reply_to_message.message_id,
+    disable_notification=True
     )
-
+    
+@Client.on_message(
+    filters.command(["pin loud"], COMMAND_HAND_LER) &
+    admin_fliter
+)async def pin(c: Client, m: Message):
+    await c.pin_chat_message(
+        m.chat.id,
+        m.reply_to_message.message_id,
+        disable_notification=False
+    )        
+    
 @Client.on_message(
     filters.command(["unpin"], COMMAND_HAND_LER) &
     admin_fliter
