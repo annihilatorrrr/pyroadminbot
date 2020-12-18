@@ -21,7 +21,7 @@ async def pin(client, message):
     filters.command(["pin loud"], COMMAND_HAND_LER) &
     admin_fliter
 )
-async def pin(client, message):
+async def pinloud(client, message):
     await client.pin_chat_message(
     message.chat.id,
     message.reply_to_message.message_id,
