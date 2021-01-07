@@ -4,6 +4,7 @@ tgcrypto
 asyncio
 aiohttp
 
+gpytranslate
 googletrans
 regex
 speedtest-cli
