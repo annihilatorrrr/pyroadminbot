@@ -79,7 +79,7 @@ async def temp_ban_user(_, message):
             )
         else:
             await message.reply_text(
-                "user"
+                "user "
                 f"<a href='tg://user?id={user_id}'>"
                 "he is"
                 "</a>"
