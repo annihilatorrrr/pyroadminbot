@@ -5,7 +5,7 @@ from pyrobot.helper_functions.sql_helpers import SESSION, BASE
 
 class Notes(BASE):
     __tablename__ = "notes"
-    chat_id = Column(String(14), primary_key=True)
+    chat_id = Column(String(70), primary_key=True)
     name = Column(UnicodeText, primary_key=True)
     d_message_id = Column(Integer)
 
